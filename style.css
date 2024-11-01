@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Navbar */
+.navbar-own{
+    background-color: black !important;
+    
+}
+.linkcolor{
+    color: white !important ;
+}
+.iconheight{
+    height: 600px !important;
+}
+/* Navbar End */
+
+/* First Heading */
+
+.first-heading{
+    margin-top: 20px;
+}
+/* First Heading End*/
+
+/* First Section boxess */
+.box{
+    margin-top: 20px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 20px;
+    
+}
+.botbox{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.botbox a{
+    text-decoration: none !important;
+    color: black !important;
+}
+/* First Section boxess End*/
+
+
+
+/* First Section boxess Media qurey*/
+@media (max-width:600px){
+    .box{
+        margin-top: 20px;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 20px;
+    }    
+}
+/* First Section boxess Media qurey End*/
+
+/* Section2 Start  */
+#section2{
+    place-content: center;
+}
+/* Section2 End  */
+
+.footerlink a{
+    text-decoration: none;
+    color: black;
+}
